@@ -1,0 +1,5 @@
+# Configuración local
+.env
+/venv
+/notebooks/notebook_1de3_aprobado.ipynb
+/notebooks/notebook_2de3.ipynb
