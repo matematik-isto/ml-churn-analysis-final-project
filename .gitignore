@@ -1,5 +1,13 @@
-# Configuración local
-.env
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual environment
 /venv
+
+# Environment variables
+.env
+
+# Other custmom files
 /notebooks/notebook_1de3_aprobado.ipynb
 /notebooks/notebook_2de3.ipynb
