@@ -19,5 +19,5 @@ def my_build_dataset(data: dict[str, pd.DataFrame]) -> pd.DataFrame:
     )
     return df
 
-def my_prepare_dataset(data: dict[str, pd.DataFrame]):
+def my_prepare_dataset(data: dict[str, pd.DataFrame]) -> pd.DataFrame:
     return my_build_dataset(clean_all_data(data))
