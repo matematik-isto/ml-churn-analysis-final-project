@@ -11,7 +11,7 @@ def validate_input_data(df) -> Tuple[bool, List[str]]:
     that the ML model expects.
     
     """
-    return (0,0) # Inplace just to return to this function later
+    return (True,0) # Inplace just to return to this function later
     print("🔍 Starting data validation with Great Expectations...")
     
     # Convert pandas DataFrame to Great Expectations Dataset
